@@ -1,7 +1,9 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.github.dcendents.android-maven'
-group = 'com.github.GrenderG'
-version = rootProject.ext.versionName
+// apply plugin: 'com.github.dcendents.android-maven'
+// group = 'com.github.GrenderG'
+// version = rootProject.ext.versionName
+
+apply from: 'https://raw.githubusercontent.com/Ayagikei/mvn-repo/main/gradle-mvn-push.gradle'
 
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
